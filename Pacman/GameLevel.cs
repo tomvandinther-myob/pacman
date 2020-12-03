@@ -4,7 +4,7 @@ namespace Pacman
 {
     public class GameLevel
     {
-        public static object FromString(string levelString)
+        public static GameLevel FromString(string levelString)
         {
             throw new System.NotImplementedException();
         }

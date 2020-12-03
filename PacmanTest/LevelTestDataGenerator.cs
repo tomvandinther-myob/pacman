@@ -14,6 +14,12 @@ namespace PacmanTest
 #####";
         }
 
+        public static GameLevel GetTestGameLevel()
+        {
+            var levelString = GetTestLevelString();
+            return GameLevel.FromString(levelString);
+        }
+
         public static IEnumerable<object[]> GetStringTokenTestSet()
         {
             yield return new object[]
